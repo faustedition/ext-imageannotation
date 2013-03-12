@@ -1,3 +1,13 @@
+/*
+ * ext-imageannotation-faust.js
+ *
+ * Licensed under the Apache License, Version 2
+ *
+ * Copyright(c) 2010 Moritz Wissenbach
+ *
+ */
+
+
 YUI().use('node', 'event', 'io', 'json', function(Y) {
 
 	// first request the text content/lines

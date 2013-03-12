@@ -5,9 +5,6 @@
  *
  * Copyright(c) 2012 Moritz Wissenbach
  *
- */
-
-/* 
  * ext-imageannotation extends svg-edit to act as an annotation
  * tool for images.
  *

@@ -5,9 +5,6 @@
  *
  * Copyright(c) 2012 Moritz Wissenbach
  *
- */
-
-/* 
  * Extends svg-edit to act as an annotation tool for images.
  * 
  * This file contains a plugin for rapidly creating line-shaped
