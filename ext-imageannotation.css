@@ -1,0 +1,91 @@
+html body {
+	overflow: hidden;
+}
+
+#svg_editor #textpanel {
+ 	display: inline-block;
+	position: relative;
+ 	top: 1px;
+ 	bottom: 0px;
+ 	right: 0px;
+	width: 100%;
+ 	overflow: auto;
+ 	margin: 0px;
+	margin-left: 10px;
+ 	-moz-user-select: none;
+ 	-webkit-user-select: none;
+}
+
+#svg_editor #sidepanels {
+	overflow: scroll;
+}
+
+#svg_editor #linelist {
+	margin: 1px;
+	padding: 0px;
+	width: 127px;
+	border-collapse: collapse;	
+	border: 1px solid #808080;
+	background-color: #FFFFFF;
+}
+ 
+#svg_editor #linelist tr.linesel {
+	border: 1px solid #808080;
+	background-color: #CCCCCC;
+}
+
+/* #svg_editor #linelist tr.linesel td.linename { */
+/* 	font-weight: bold; */
+/* }  */
+
+#svg_editor #layerlist td.layervis {
+	width: 22px;
+	cursor:pointer;
+}
+
+
+#svg_editor #linelist td.linelink * {
+	display: block;
+}
+
+#svg_editor #linelist td.linelink  {
+	width: 30px;
+	background-color: LightGreen;
+}
+
+#svg_editor #linelist td.lineunlinked {
+	/* background-image: none; */
+	cursor:pointer;
+	background-color: white;
+}
+
+#svg_editor #linelist td.lineunlinked * {
+	/* display: none; */
+	opacity: 0.8;
+}
+
+#svg_editor #linelist td.linename {
+	cursor: pointer;
+}
+
+
+
+#textpanel .linked {
+	background-color: #00FF00;
+	font-weight: bold;
+}
+
+
+svg .imageannotationLine {
+	fill: red;
+}
+
+svg .imageannotationLineSelected {
+	opacity: 0.7;
+	stroke-width: 10;
+}
+
+svg .imageannotationLinked {
+	fill: blue;
+	stroke-width: 2;
+}
