@@ -10,7 +10,9 @@
 svgEditor.addExtension("server_opensave", {
 	callback: function() {
 
-		var url = top.path;
+		var urldata = $.deparam.querystring(true);
+
+		var url = urldata.url;
 	
 		svgEditor.setCustomHandlers({
 			save: function(win, data) {
