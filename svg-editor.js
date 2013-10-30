@@ -244,12 +244,15 @@
 						} else {
 							Editor.loadFromString(src);
 						}
-					} else if(qstr.indexOf('paramurl=') !== -1) {
-						// Get paramater URL (use full length of remaining location.href)
-						svgEditor.loadFromURL(qstr.substr(9));
-					} else if(urldata.url) {
-						svgEditor.loadFromURL(urldata.url);
 					}
+					// Disabled for ext-imageannotation
+					
+					// else if(qstr.indexOf('paramurl=') !== -1) {
+					// 	// Get paramater URL (use full length of remaining location.href)
+					// 	svgEditor.loadFromURL(qstr.substr(9));
+					// } else if(urldata.url) {
+					// 	svgEditor.loadFromURL(urldata.url);
+					// }
 				}
 			})();
 			
