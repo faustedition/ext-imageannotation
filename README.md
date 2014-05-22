@@ -7,12 +7,19 @@ a                      general-purpose                      SVG-Editor
 versatile  and   efficient  linking  of   manuscript  facsimiles  with
 transcribed text.
 
+Online Demo
+===========
+
+A demo of annotated image in the  editor is online at
+<http://faustedition.github.io/ext-imageannotation>
+
 Quick start
 ===========
 
-To see an  example of an annotated image in the  editor, go to
-<http://faustedition.github.io/ext-imageannotation> or copy the root
+To install and start the editor, copy the root
 directory onto a webserver and open `ext-imageannotation-example.html`.
+The demo (see above) provides an example of how to supply arguments in the form
+of HTTP query parameters.
 
 Usage
 =====
