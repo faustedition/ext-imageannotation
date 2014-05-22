@@ -10,7 +10,7 @@ transcribed text.
 Online Demo
 ===========
 
-A demo of annotated image in the  editor is online at
+A demo the editor with an opened example annotation is online at
 <http://faustedition.github.io/ext-imageannotation>
 
 Quick start
