@@ -5767,6 +5767,8 @@ this.setSvgString = function(xmlString) {
 			call("unsetnonce");
 		}
 		
+// Not needed for Faust - produces error ("Error: unable to load SVG data") if not removed
+/*
 		// change image href vals if possible
 		content.find('image').each(function() {
 			var image = this;
@@ -5785,7 +5787,7 @@ this.setSvgString = function(xmlString) {
 			// Add to encodableImages if it loads
 			canvas.embedImage(val);
 		});
-	
+*/	
 		// Wrap child SVGs in group elements
 		content.find('svg').each(function() {
 			// Skip if it's in a <defs>

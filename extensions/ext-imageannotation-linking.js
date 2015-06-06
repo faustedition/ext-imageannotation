@@ -247,7 +247,7 @@ YUI().use('model', 'model-list', 'view', 'node', 'event', 'io', 'json', function
 					// transfer the link information from the SVG into the model first!
 					$('#svgcontent').find('rect').each(function(index, elem){
 						var link = elem.getAttributeNS(imageannotationNS, imageannotationAttr);
-						if (link.charAt(0) === "#") {
+						if (link !== null && link.charAt(0) === "#") {
 							var id = link.substr(1);
 							if (imageannotationLines.getById(id))
 								imageannotationLines.getById(id).set('linkedWith', elem.getAttribute('id'));
