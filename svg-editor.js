@@ -3469,6 +3469,7 @@
 				docElem = $(container)[0].appendChild(document.importNode(docElem, true));
 
 				docElem.setAttribute('width',16.5);
+				docElem.setAttribute('height',16.5);
 				
 				this.rect = docElem.firstChild;
 				this.defs = docElem.getElementsByTagName('defs')[0];
